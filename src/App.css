@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F7FDF6;
+  color: black;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+body.dark {
+  background-color: #191924;
+  color: white;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.app_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+

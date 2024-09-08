@@ -1,0 +1,44 @@
+{
+  "navBar":{
+    "nb1": "Home",
+    "nb2": "Über mich",
+    "nb3": "Projekte",
+    "nb4": "Fähigkeiten",
+    "nb5": "Kontakt",
+    "nb6": "Sprachen"
+  },
+   "home":{
+    "sp": ", Ich bin",
+    "h2": "Full Stack Entwickler",
+    "p": "Ich bin ein leidenschaftlicher Full-Stack-Entwickler. Ich habe Fähigkeiten in Front-End-Technologien wie React, sowie Back-End-Technologien wie Node js, MySQL und PostgresSQL gelernt. Mein Ziel ist es, mein Wissen zu nutzen, um innovative Lösungen zu entwickeln, die das Unternehmenswachstum vorantreiben und außergewöhnliche Benutzererfahrungen liefern"
+  },
+  "abtme":{
+    "h1":"Über mich",
+    "p1": "Hallo, mein Name ist Jose Maria, ich bin von Beruf Administrator. Meine Leidenschaft für die Programmierung begann nach der Pandemie.",
+    "p2":"Meine erste Erfahrung mit der Programmierung war ein Kurs über Excel-Makros an der Uni, aber erst 2022 konnte ich mit Technologien wie Visual Studio Code, Javascript und etwas Python experimentieren.",
+    "p3": "Die Programmierung ist ein Feld voller Möglichkeiten und ständigem Lernen, in das ich tiefer eindringen möchte."
+  },
+   "projects":{
+    "h2": "Projekte",
+    "p": "Während des Erlernens von Technologien sowohl für das Front-End als auch für das Back-End konnte ich einige Projekte entwickeln und das Gelernte anwenden."
+  },
+  "skills":{
+    "h2": "Fähigkeiten",
+    "p": "Im Lernprozess habe ich verschiedene Anwendungen und Technologien für die vollständige Entwicklung von Webseiten verwendet."
+  },
+  "contact":{
+    "h2": "Kontakt",
+    "h22": "Nehmen Sie Kontakt auf",
+    "p": "Zögern Sie nicht! Schreiben Sie mir eine Nachricht und ich melde mich so schnell wie möglich bei Ihnen!",
+    "cp": "kopiert",
+    "h3": "Schreiben Sie mir",
+    "name": "Ihr Name",
+    "email": "Ihre Email",
+    "sub": "Betreff",
+    "msm": "Nachricht",
+    "send": "Nachricht senden",
+    "fn": "Voller Name",
+    "ml": "Email",
+    "sbj": "Thema"
+  }
+}
