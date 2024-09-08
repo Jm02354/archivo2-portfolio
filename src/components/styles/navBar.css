@@ -104,6 +104,12 @@ body.dark .header{
     position: fixed;
     z-index: 1000;
   }
+  .nav{
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 180px;
+  }
   .menu{
     background-color: #f3415b;
     flex-direction: column;
@@ -170,7 +176,20 @@ body.dark .header{
     visibility: hidden;
   }
 }
-
+@media (width < 480px){
+  .nav {
+    margin-left: 520px;
+  }
+  .btn_menuclose {
+  }
+}
+@media (width < 391px){
+  .nav {
+    margin-left: 498px;
+  }
+  .btn_menuclose {
+  }
+}
 
 
 

@@ -209,3 +209,35 @@ body.dark .send_img img{
   }
 
 }
+@media (width < 391px){
+  .form_container{
+    width: 350px;
+    margin-left: -100px;
+    padding: 20px 10px;
+  }
+  .form_container p{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .form_container form {
+    margin-left: 45px;
+  }
+  .btncopy{
+    margin-left: 1px;
+    width: 325px;
+  }
+  .form .h3f{
+    min-width: 95vw;
+    margin-left: -65px;
+  }
+  .form .send_btn{
+    margin-left: 38px;
+  }
+
+  .send_img img{
+    margin-top: 10px;
+    width: 90%;
+  }
+
+}

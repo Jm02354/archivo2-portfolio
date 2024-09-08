@@ -19,7 +19,7 @@ import slide_image_6 from "../imgprojects/ecommerce1.png"
 import slide_image_7 from "../imgprojects/api.jpg"
 
 // import required modules
-import { EffectCoverflow, Navigation, Pagination } from 'swiper/modules';
+import { EffectCoverflow, EffectFlip, Navigation, Pagination } from 'swiper/modules';
 import { useTranslation } from 'react-i18next';
 
 const Project = () => {
@@ -48,7 +48,7 @@ const Project = () => {
           }}
             pagination={false}
             navigation={true}
-          modules={[EffectCoverflow, Navigation, Pagination]}
+            modules={[EffectCoverflow, Navigation, Pagination]}
             className="mySwiper"
           >   
             <SwiperSlide>

@@ -314,9 +314,8 @@ body.dark .codingimg2{
   left: 50%;
 }
 }
-@media (width < 320px){
+@media (width < 391px){
   .home_container{
-  border: 1px solid red;
   width: 208vw;
   }
   .home_div{
@@ -326,18 +325,17 @@ body.dark .codingimg2{
   .home_text {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
   width: 100%;
   padding: 100px;
   }
   .home_img{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    width: 80%;
+    width: 70%;
     top: 50%;
     left: 10%;
     margin-top: .5px;
+    margin-left: 30px;
   }
   .codingimg .codingimg2{
     top: 50%;
