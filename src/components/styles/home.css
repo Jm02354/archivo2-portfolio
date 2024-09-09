@@ -346,3 +346,32 @@ body.dark .codingimg2{
     left: 50%;
   }
 }
+@media (width < 376px){
+  .home_container{
+  width: 208vw;
+  }
+  .home_div{
+    display: flex;
+    flex-direction: column;
+  }
+  .home_text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+  margin-left: -3px;
+  }
+  .home_img{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    top: 50%;
+    left: 10%;
+    margin-top: .5px;
+    margin-left: 50px;
+  }
+  .codingimg .codingimg2{
+    top: 50%;
+    left: 50%;
+  }
+}

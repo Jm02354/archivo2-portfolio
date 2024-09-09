@@ -191,7 +191,13 @@ body.dark .header{
   }
 }
 
-
+@media (width < 376px){
+  .nav {
+    margin-left: 488px;
+  }
+  .btn_menuclose {
+  }
+}
 
 
 
