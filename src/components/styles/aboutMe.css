@@ -159,8 +159,13 @@ body.dark .content{
   .aboutme_div{
     max-width: 175%;
     height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .aboutme_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 380px;
     height: 300px;
     padding: 24px;
@@ -177,6 +182,9 @@ body.dark .content{
     height: 330px;
   }
   .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 0;
     width: 200px;
   }

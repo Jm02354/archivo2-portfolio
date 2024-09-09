@@ -293,11 +293,13 @@ body.dark .codingimg2{
 }
 @media (width < 480px){
   .home_container{
-  max-width: 100vw;
+  max-width: 100%;
 }
   .home_div{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .home_text {
   display: flex;
@@ -307,13 +309,17 @@ body.dark .codingimg2{
 }
 .home_img{
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   height: 330px;
-  margin-left: -35px;
+  margin-left: -60px;
   margin-top: 40px;
 }
 .codingimg .codingimg2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 50%;
   left: 50%;
 }

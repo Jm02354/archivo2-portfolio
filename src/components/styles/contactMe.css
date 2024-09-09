@@ -178,10 +178,16 @@ body.dark .send_img img{
   }
 }
 @media (width < 480px){
+  .contactme_form{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .form_container{
     width: 350px;
-    margin-left: -80px;
     padding: 20px 10px;
+    
   }
   .form_container p{
     margin-left: 40px;
@@ -189,6 +195,9 @@ body.dark .send_img img{
   }
 
   .form_container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-left: 45px;
   }
   .btncopy{
