@@ -49,6 +49,7 @@ body.dark .aboutme_text{
   z-index: 1;
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
 .aboutme_img{
   /* width: 600px; 
@@ -199,6 +200,7 @@ body.dark .content{
 
   .aboutme_text p{
     font-size: 15px;
+
   }
   .aboutme_img{
     margin-left: -10px;   

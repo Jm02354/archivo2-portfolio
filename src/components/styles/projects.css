@@ -33,6 +33,10 @@ body.dark .projects_text{
   background-color: #164678;
   box-shadow: 6px 6px 6px #F3F1F5
 }
+
+.projects_text p{
+  text-align: center;
+}
 .cards_container{
   margin: 51px 100px 51px 100px;
 }

@@ -103,7 +103,6 @@ body.dark .learning img{
   border-radius: 42px;
   line-height: 1.5;
   box-shadow: 6px 6px 6px #25234D;
-  text-align: justify;
   background-color: #F3415B;
   z-index: 0;
   color: white;
@@ -116,7 +115,7 @@ body.dark .skills_text{
 
 .skills_text p {
   padding: 24px;
-  text-align: justify;
+  text-align: center;
 }
 
 @media (width < 768px){
@@ -128,6 +127,7 @@ body.dark .skills_text{
     margin: 3px 160px -33px;
     width: 300px;
     height: 170px;
+    margin-bottom: 6px;
   }
   .banner{
     margin-top: 35px;
@@ -157,6 +157,8 @@ body.dark .skills_text{
 
  .skills_text{
     margin: 10px 40px -33px;
+    text-align: center;
+    margin-bottom: 6px;
   }
   .banner{
     height: 60vh;

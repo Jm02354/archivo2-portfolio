@@ -16,13 +16,17 @@
   flex-direction: column;
   width: 750px;
   padding: 110px 120px 120px 120px;
-  text-align: justify;
+  text-align: center;
   gap: 15px;
   z-index: 0;
+}
+.home_text h2{
+  text-align: center;
 }
 
 .home_text p{
   line-height: 1.5;
+  text-align: center;
 }
 .home_text h1 span:nth-child(2){
   font-size: 3rem;
