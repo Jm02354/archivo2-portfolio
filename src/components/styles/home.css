@@ -274,10 +274,10 @@ body.dark .codingimg2{
     flex-direction: column;
   }
   .home_text {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 55px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 55px 100px 100px 100px;
   }
   .home_img{
     display: flex;

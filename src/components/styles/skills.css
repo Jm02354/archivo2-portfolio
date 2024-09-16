@@ -156,9 +156,7 @@ body.dark .skills_text{
 @media (width < 480px){
 
  .skills_text{
-    /* margin: 10px 40px -33px; */
     text-align: center;
-    /* margin-bottom: 6px; */
   }
   .banner{
     height: 60vh;

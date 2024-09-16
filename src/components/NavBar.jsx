@@ -40,7 +40,7 @@ const NavBar = () => {
 
         <div className={`menu ${menu && 'active'}`}>
           <button onClick={handleMenu} className='btn_menuclose'>
-                  <ion-icon name="close-circle-outline"></ion-icon>
+            <ion-icon name="close-circle-outline"></ion-icon>
           </button>
           <ul className='menu_list'>
             <li className='menu_item'>
@@ -72,7 +72,8 @@ const NavBar = () => {
 
           <button onClick={handleMenu} className='btn_menuopen'>
             <ion-icon name="menu-outline"></ion-icon>
-        </button>
+          </button>
+          
         <Particle isDark={isDark}/>
       </div>
     </header>

@@ -19,7 +19,7 @@ const Skill = () => {
 
   return (
     <>
-      <h2 className='skl' id='skills'>{t("skills.h2")}</h2>
+    <h2 className='skl' id='skills'>{t("skills.h2")}</h2>
     <div className='skills_container'>
       
       <div className="banner">

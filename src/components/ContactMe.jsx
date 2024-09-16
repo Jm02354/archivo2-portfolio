@@ -49,7 +49,7 @@ const ContactMe = () => {
 
   return (
     <>
-      <h2 className='ctc' id='contactme'>{t("contact.h2")}</h2>
+    <h2 className='ctc' id='contactme'>{t("contact.h2")}</h2>
     <div className='contactme_container'>
 
       <div className='contactme_form'>
@@ -112,9 +112,10 @@ const ContactMe = () => {
         <div className='send_img'>
           <img src={email} alt="email" />
         </div>
+          
       </div>
-      </div>
-      </>
+    </div>
+    </>
   )
 }
 

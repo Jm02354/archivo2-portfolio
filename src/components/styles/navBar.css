@@ -48,11 +48,10 @@ body.dark .header{
 }
 
 .menu_link{
-    color: white;
-    font-weight: 600;
-    text-decoration: none;
-    margin-bottom: -6px;
-    transition: color .3s;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .3s;
 }
 
 .menu_link:hover{
