@@ -52,19 +52,26 @@ const Project = () => {
             modules={[EffectCoverflow, Navigation, Pagination]}
             className="mySwiper"
             breakpoints={{
-              479: {
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                coverflowEffect: {
+                  
+                },
+              },
+              480: {
                 slidesPerView: 1,
                 spaceBetween: 10,
                 coverflowEffect: {
                   rotate: 30,
-                  stretch: 10,
-                  depth: 50,
+                  stretch: 15,
+                  depth: 60,
                 },
               },
             
               768: {
-                slidesPerView: 1,  
-                spaceBetween: 10,
+                slidesPerView: 2,  
+                spaceBetween: 20,
                 coverflowEffect: {
                   rotate: 40,
                   stretch: 20,
@@ -74,7 +81,12 @@ const Project = () => {
                 1024: {
                   slidesPerView: 3,  
                   spaceBetween: 30,
-    },
+                  coverflowEffect: {
+                  rotate: 50,
+                  stretch: 30,
+                  depth: 100,
+                },
+              },
             }}
           >   
             <SwiperSlide>

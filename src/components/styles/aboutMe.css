@@ -129,7 +129,6 @@ body.dark .content{
 
 @media (width < 768px){
   .aboutme_container{
-    border: 1px solid red;
     max-width: 100vw;
     display: flex;
     justify-content: center;

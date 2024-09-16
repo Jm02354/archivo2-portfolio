@@ -149,7 +149,6 @@ body.dark .send_img img{
 @media (width < 768px) {
   .contactme_container{
     max-width: 100vw;
-    border: 1px solid red;
   }
   .contactme_form{
     display: flex;

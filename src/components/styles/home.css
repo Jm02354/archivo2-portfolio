@@ -265,11 +265,10 @@ body.dark .codingimg2{
 
 @media (width < 768px){
   .home_container{
-    border: 1px solid red;
-  max-width: 100vw;
-  margin-top: 20px;
-  padding: 30px 100px 0;
-}
+    max-width: 100vw;
+    margin-top: 20px;
+    padding: 30px 100px 0;
+  }
   .home_div{
     display: flex;
     flex-direction: column;
