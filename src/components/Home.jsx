@@ -26,10 +26,10 @@ const Home = () => {
           <p>{t("home.p")}</p>
 
           <div className='iconsbtn'>
-            <a href="https://github.com/Jm02354" target='_blank'>
+            <a href="https://www.linkedin.com/in/josemariachihuanarellano/" target='_blank'>
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a href="https://www.linkedin.com/in/josemariachihuanarellano/" target='_blank'>
+            <a href="https://github.com/Jm02354" target='_blank'>
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </div>

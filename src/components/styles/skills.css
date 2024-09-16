@@ -122,12 +122,13 @@ body.dark .skills_text{
   .skills_container{
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
   }
   .skills_text{
-    margin: 3px 160px -33px;
     width: 300px;
     height: 170px;
-    margin-bottom: 6px;
   }
   .banner{
     margin-top: 35px;
@@ -142,8 +143,8 @@ body.dark .skills_text{
               translateZ(240px);
   }
   .learning img {
-    margin-top: 260px;
-    width: 42%;
+    margin-top: 220px;
+    width: 38%;
     border-radius: 50px;
     border-bottom: 6px solid #F3415B;
     border-top: 6px solid #F3415B;
@@ -156,9 +157,9 @@ body.dark .skills_text{
 @media (width < 480px){
 
  .skills_text{
-    margin: 10px 40px -33px;
+    /* margin: 10px 40px -33px; */
     text-align: center;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
   }
   .banner{
     height: 60vh;
@@ -175,7 +176,7 @@ body.dark .skills_text{
     font-size: 15px;
   }
   .learning img {
-    margin-top: 220px;
+    margin-top: 160px;
     width: 51%;
     border-radius: 50px;
   }

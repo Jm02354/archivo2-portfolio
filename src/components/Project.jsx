@@ -35,21 +35,47 @@ const Project = () => {
         </div>
         <div className='cards_container'>
           <Swiper
-          effect={'coverflow'}
-          grabCursor={false}
-          centeredSlides={false}
-          slidesPerView={3}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
+            effect={'coverflow'}
+            grabCursor={false}
+            centeredSlides={false}
+            slidesPerView={3}
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+
             pagination={false}
             navigation={true}
             modules={[EffectCoverflow, Navigation, Pagination]}
             className="mySwiper"
+            breakpoints={{
+              479: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                coverflowEffect: {
+                  rotate: 30,
+                  stretch: 10,
+                  depth: 50,
+                },
+              },
+            
+              768: {
+                slidesPerView: 1,  
+                spaceBetween: 10,
+                coverflowEffect: {
+                  rotate: 40,
+                  stretch: 20,
+                  depth: 70,
+                },
+              },
+                1024: {
+                  slidesPerView: 3,  
+                  spaceBetween: 30,
+    },
+            }}
           >   
             <SwiperSlide>
 
