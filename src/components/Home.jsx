@@ -40,7 +40,7 @@ const Home = () => {
               <span></span>
               <span></span>
               <span></span>
-              Download
+              Download CV
               English Version
             </a>
             <a className='effect' href="https://drive.google.com/file/d/1WcPKJfu9NrG6CT31FCDPbpbNebe8uXBu/view?usp=sharing" target='_blank'>
@@ -48,7 +48,7 @@ const Home = () => {
               <span></span>
               <span></span>
               <span></span>
-              Download
+              Download CV
               German Version
             </a>
           </div>
