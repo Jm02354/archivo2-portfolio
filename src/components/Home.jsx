@@ -35,7 +35,7 @@ const Home = () => {
           </div>
 
           <div className='downloadbtn'>
-            <a className='effect' href="https://drive.google.com/file/d/1-GacPW5ElPx-jkpQk8TroRJhqFgF3E2V/view?usp=sharing" target='_blank'>
+            <a className='effect' href="https://drive.google.com/file/d/1DoXvj_PjE9LNBC-ianHijUVgOJS2g-WN/view?usp=sharing" target='_blank'>
               <span></span>
               <span></span>
               <span></span>
@@ -43,7 +43,7 @@ const Home = () => {
               Download CV
               English Version
             </a>
-            <a className='effect' href="https://drive.google.com/file/d/1rxOkWVhCyiZSwzSa9vMYM9Vpuf-r_s3Y/view?usp=sharing" target='_blank'>
+            <a className='effect' href="https://drive.google.com/file/d/1SIzv1rUvYl-rneTIK5D2bPo2Ln_tG02d/view?usp=sharing" target='_blank'>
               <span></span>
               <span></span>
               <span></span>
