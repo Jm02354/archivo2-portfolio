@@ -1,32 +1,41 @@
 {
-  "navBar":{
+  "navBar": {
     "nb1": "Home",
     "nb2": "About-me",
     "nb3": "Projects",
     "nb4": "Skills",
     "nb5": "Contact me",
-    "nb6": "Language"
+    "nb6": "Language",
+    "nb7": "CV English version",
+    "nb8": "CV German version"
   },
-  "home":{
+  "home": {
     "sp": ", I´m",
     "h2": "Full Stack Developer",
     "p": "I am a passionate full stack developer. I have learned skills in front-end technologies like React, as well as back-end technologies like Node js, MySQL and PostgresSQL. My goal is to leverage my knowledge to create innovative solutions that drive business growth and deliver exceptional user experiences"
   },
-  "abtme":{
-    "h1":"About me",
+  "abtme": {
+    "h1": "About me",
     "p1": "Hello my name is Jose Maria, I am an administrator as my first profession. My passion for programming started after the pandemic.",
-    "p2": "Although my first approach in the programming field was when I took an excel macros course in college, it was only in 2022 that I was able to experiment with technologies such as Visual Studio Code, Javascript and some Python.", 
+    "p2": "Although my first approach in the programming field was when I took an excel macros course in college, it was only in 2022 that I was able to experiment with technologies such as Visual Studio Code, Javascript and some Python.",
     "p3": "Programming is a field full of opportunities and continuous learning in which I want to go deeper."
   },
-  "projects":{
+  "projects": {
     "h2": "Projects",
-    "p": "During the learning of technologies for both front-end and back-end I was able to develop some projects applying what I learned."
+    "p": "During the learning of technologies for both front-end and back-end I was able to develop some projects applying what I learned.",
+    "p1": "Backend development for e-commerce involves the creation of a series of endpoints that facilitate user management, the login process, product viewing and filtering, as well as the functionality to add items to the cart and make purchases.",
+    "p2": "For the project we developed an application with random phrases and images when clicking on a button. Concepts such as components, handle events(onClick) and props were applied.",
+    "p3": "In this project we make use of an api to bring data about weather, location, among others, applying hooks like useEffect, useState and asynchronous requests.",
+    "p4": "A web application that allows us to see all the characters of the Rick and Morty series by location. Conditional rendering, error handling, paging and useFetch are applied.",
+    "p5": " A web application that allows us to interact with a Users API, through all http methods. HTTP methods (get, create, delete, update) and props practice are applied.",
+    "p6": "A web page is created to view the information of each pokemon, react router and redux are applied. ",
+    "p7": "The purpose is to create an e-commerce that has everything related to it, but now connected directly to a backend. You can see product filtering, shopping cart and purchase history."
   },
-  "skills":{
+  "skills": {
     "h2": "Skills",
     "p": "In the learning process i used various applications and technologies for the full stack development of web pages."
   },
-  "contact":{
+  "contact": {
     "h2": "Contact Me",
     "h22": "Get in touch",
     "p": "Don´t hesitate! Drop me a line and I´ll get back to you ASAP!.",
