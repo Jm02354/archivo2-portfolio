@@ -86,9 +86,9 @@ const NavBar = () => {
                 {t("navBar.nb8")}
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="menu_link">{t("navBar.nb6")}: </a>
-            </li>
+            </li> */}
             <li className="menu_link" onClick={closeMenu}>
               <img
                 onClick={() => i18n.changeLanguage("en")}
